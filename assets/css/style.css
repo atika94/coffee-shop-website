@@ -99,8 +99,11 @@ body{
 
     text-decoration: none;
     transition: 0.3s ease;
+}
 
-
+.logo:hover{
+    /*color: var(--secondary-color);*/
+    transform: scale(1.1);
 }
 
 /*========== BUTTON ==========*/
@@ -136,8 +139,61 @@ body{
     height: auto;
 }
 
+#hero{
 
-.logo:hover{
-    /*color: var(--secondary-color);*/
-    transform: scale(1.1);
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:80px 8%;
+
+    gap:60px;
+
 }
+
+.hero-content{
+
+    flex:1;
+
+}
+
+.hero-image{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.hero-content h1{
+
+    font-family:"Playfair Display", serif;
+
+    font-size:4rem;
+
+    color:var(--primary-color);
+
+    margin-bottom:20px;
+
+}
+
+.hero-content p{
+
+    font-size:1.1rem;
+
+    margin-bottom:35px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
