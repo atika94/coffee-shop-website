@@ -38,6 +38,8 @@ body{
 
 }
 
+
+
 /*========== NAVIGATION ==========*/
 
 .navbar{
@@ -53,9 +55,89 @@ body{
 }
 
 
+.nav-links{
+
+    display: flex;
+
+    list-style: none;
+
+    gap: 30px;
+
+}
+
+
+.nav-links a{
+
+    text-decoration: none;
+
+    color: var(--text-color);
+
+    font-weight: 500;
+
+    transition: 0.3s ease;
+
+}
+
+
+.nav-links a:hover{
+
+    color: var(--primary-color);
+
+}
+
+/*========== LOGO ==========*/
+
+.logo{
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 2rem;
+
+    font-weight: 700;
+
+    color: var(--primary-color);
+
+    text-decoration: none;
+    transition: 0.3s ease;
+
+
+}
+
+/*========== BUTTON ==========*/
+
+.btn{
+
+    background-color: var(--primary-color);
+
+    color: var(--white-color);
+
+    text-decoration: none;
+
+    padding: 12px 24px;
+
+    border-radius: 50px;
+
+    transition: 0.3s ease;
+
+}
+
+.btn:hover{
+
+    background-color: var(--secondary-color);
+
+}
+
+
+
 /*========== HERO SECTION ==========*/
 .hero-image img{
     width: 100%;
     max-width: 550px;
-    height: 550px;
+    height: auto;
+}
+
+
+.logo:hover{
+    /*color: var(--secondary-color);*/
+    transform: scale(1.1);
 }
