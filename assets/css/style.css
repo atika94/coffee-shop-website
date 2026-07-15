@@ -1,5 +1,5 @@
 /*--------------------------------------
-    Sage Café Website
+    Ink & Espresso Website
     Author: Atika
     File: style.css
 ----------------------------------------*/
@@ -17,4 +17,45 @@ html{
 
 body{
     font-family: "Poppins", sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/*========== VARIABLES ==========*/
+
+:root{
+
+    --primary-color: #2D6A4F;
+    --secondary-color: #6F4E37;
+    --accent-color: #95D5B2;
+
+    --background-color: #FCFBF8;
+
+    --text-color: #2E2E2E;
+
+    --white-color: #FFFFFF;
+
+}
+
+/*========== NAVIGATION ==========*/
+
+.navbar{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px 8%;
+
+}
+
+
+/*========== HERO SECTION ==========*/
+.hero-image img{
+    width: 100%;
+    max-width: 550px;
+    height: 550px;
 }
