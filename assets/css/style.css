@@ -116,7 +116,7 @@ body{
 }
 
 .logo:hover{
-    /*color: var(--secondary-color);*/
+    color: var(--primary-color);
     transform: scale(1.1);
 }
 
@@ -155,7 +155,6 @@ body{
     height: auto;
 }
 
-/*========== HERO SECTION ==========*/
 
 #hero{
 
@@ -190,7 +189,7 @@ body{
 
     flex:1;
 
-    postion:relative;
+    position:relative;
 
     z-index:1;
 
@@ -250,4 +249,19 @@ body{
 
 }
 
+
+/*========== NAVBAR ON SCROLL ==========*/
+
+.navbar.scrolled{
+    background-color: var(--background-color);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.navbar.scrolled .logo{
+    color: var(--primary-color);
+}
+
+.navbar.scrolled .nav-links a{
+    color: var(--text-color);
+}
 
