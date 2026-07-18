@@ -215,7 +215,6 @@ body{
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 20px;
-
 }
 
 .hero-content p{
@@ -223,7 +222,6 @@ body{
     font-size: 1.2rem;
     max-width: 650px;
     margin: 0 auto 40px;
-
 }
 
 .hero-buttons{
@@ -234,6 +232,34 @@ body{
 
 }
 
+
+/*========== ABOUT SECTION ==========*/
+
+#about{
+
+    padding:100px 8%;
+    background: white;
+
+}
+
+.about-container{
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+    flex:1;
+
+}
+
+.about-image{
+    display:flex;
+    flex:1;
+    align-items:center;
+    gap:60px;
+    justify-content:space-between;
+
+}
 
 /*========== NAVBAR ON SCROLL ==========*/
 
